@@ -9,6 +9,8 @@ exit 1
 fi
 ## check number of processors
 
+c= 'nproc'
+
 if [ 'nproc' -eq 1 ]
 then
 	echo "This serger is very small"
